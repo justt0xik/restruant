@@ -1,0 +1,27 @@
+.carousel,.carousel-item{
+    height: 500px !important;
+}
+img{
+    height: 100%;
+    object-fit: cover;
+}
+section{
+    margin:100px 0;
+}
+.row{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.pizzaimg{
+    height: 500px;
+}
+.container{
+    background-color: black;
+}
+form{
+    border:solid 3px black  !important;
+    align-items: center;
+}
+.contactParent{
+    background-color: red !important;
+}
