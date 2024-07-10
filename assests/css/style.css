@@ -1,0 +1,111 @@
+
+.carousel,.carousel-item{
+    height: 500px !important;
+}
+img{
+    height: 100%;
+    object-fit: cover;
+}
+section{
+    margin:100px 0;
+}
+.row{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.pizzaimg{
+    height: 500px;
+}
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+.aboutSection{
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imgs/WhatsApp\ Image\ 2024-07-01\ at\ 17.32.54_f637d4f9.jpg);
+  background-size: cover;
+  background-position: bottom;
+  margin: 0 !important;
+}
+
+.cardParent{
+  position: relative;
+}
+.card-body{
+  position: absolute;
+  background-color: white;
+  bottom: -200px;
+  transition: 0.5s;
+}
+.card{
+  position: relative;
+  overflow: hidden;
+}
+.card:hover .card-body{bottom: 0px;}
+
+.card-body-two{
+  position: absolute;
+  transition: 0.5s;
+  top: -100px !important;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 100px;
+}
+.card-body-three{
+  position: absolute;
+  transition: 0.5s;
+  left: 500px;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  transform: translateY(-50%);
+  top: 50%;
+  height: 100px;
+}
+li{
+  color: white;
+}
+.aboutSection{
+  min-height: 700px;
+}
